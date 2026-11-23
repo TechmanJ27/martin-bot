@@ -41,4 +41,8 @@ public sealed class ReactionRoleDatabase
             """;
         await command.ExecuteNonQueryAsync();
     }
+
+    public async GetRoleFromIds(string messageId, string emojiId) {
+        
+    }
 }
