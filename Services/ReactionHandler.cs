@@ -3,6 +3,8 @@ using Discord.WebSocket;
 
 using Microsoft.Data.Sqlite;
 
+using ReactionDatabase;
+
 namespace ShinBreaker.Services;
 
 public static class ReactionHandler
